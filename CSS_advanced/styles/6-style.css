@@ -2,7 +2,7 @@
  html {
     scroll-behavior: smooth;
     font-size: 62.5%;
-    font-size: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold);
 }
 :root {
     --color-primary: #d73953;
@@ -28,7 +28,7 @@ body {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
-    font-size: var(--font-weight-regular);
+    font-weight: var(--font-weight-regular);
 }
 a {
     color: var(--text-color); /* anchor elements */
