@@ -1,4 +1,7 @@
  /* task 3  */
+ html {
+    scroll-behavior: smooth;
+}
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -6,9 +9,6 @@
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: black;
-}
-html {
-    scroll-behavior: smooth;
 }
 body {
     color: var(--text-color);
@@ -23,5 +23,5 @@ a {
     color: var(--color-primary);
 }
 .section-tagline {
-    color: var(--color-primary9);
+    color: var(--color-primary);
 }
