@@ -38,9 +38,8 @@ body {
     line-height: var(--line-height-base);
 }
 a:link {
-     /* anchor elements */
+    color: var(--text-color); /* anchor elements */
     text-decoration: none;
-    color: var(--text-color);
 }
 a:visited {
     font-style: italic; /* Italicize the text */
@@ -49,7 +48,7 @@ a:hover {
     text-decoration: underline; /* Decorate the links with an underline */
 }
 a:active {
-    background-color: var(--color-dark-grey);
+    background-color: var(--color-light-grey);
 }
 .visually-hidden {
     display: none;
