@@ -39,7 +39,7 @@ body {
 }
 a:link {
      /* anchor elements */
-    color: var(--color-black);
+    color: var(--text-color);
     text-decoration: none;
 }
 a:visited {
