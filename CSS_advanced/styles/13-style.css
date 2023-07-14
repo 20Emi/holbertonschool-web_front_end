@@ -37,9 +37,10 @@ body {
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
-a:link{
+a:link {
      /* anchor elements */
     text-decoration: none;
+    color: black;
 }
 a:visited {
     font-style: italic; /* Italicize the text */
