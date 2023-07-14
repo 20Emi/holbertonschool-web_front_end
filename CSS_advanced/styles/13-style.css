@@ -39,8 +39,8 @@ body {
 }
 a:link {
      /* anchor elements */
-    color: var(--text-color);
     text-decoration: none;
+    color: var(--text-color);
 }
 a:visited {
     font-style: italic; /* Italicize the text */
