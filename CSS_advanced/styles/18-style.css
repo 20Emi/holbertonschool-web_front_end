@@ -126,7 +126,11 @@ a:active {
     margin: var(--nav-item-margin);
 }
 .nav .nav-link {
-    color: var(--nav-item-link-hover);
+    display: block;
+    padding: 0.5rem, 1rem;
+}
+.nav .nav-link:hover {
+    color: var(--nav-item-link-hove);
 }
 /* Sections 
     ========================================================================== */
