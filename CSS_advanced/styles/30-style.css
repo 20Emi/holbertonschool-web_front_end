@@ -57,7 +57,6 @@ html {
     --header-logo-link-position: absolute;
     --header-logo-link-top: -1rem;
     --header-logo-link-left: 0;
-    --object-fit: cover;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
@@ -272,12 +271,14 @@ ul.row {
     position: relative;
     overflow: hidden;
 }
+
 .card-work .card-image img {
     height: 30rem;
     width: 100%;
     object-fit: cover;
     vertical-align: bottom;
 }
+
 .card-work .card-inner {
     position: absolute;
     top: -0.1rem;
@@ -285,167 +286,37 @@ ul.row {
     right: -0.1rem;
     z-index: 1;
 }
+
 .card-work:hover .card-inner {
-    background-color: rgb(0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
+
 .card-work .card-title {
     text-align: center;
     margin: 0;
     opacity: 0;
     height: 100%;
     position: relative;
-}
-.card-work .card-title  a {
+  }
+  
+  .card-work .card-title a {
     display: block;
     text-decoration: none;
-    top: 45%;
-}
-.card-work .card-title a::after {
+    padding-top: 45%;
+  }
+  
+  .card-work .card-title a::after {
     position: absolute;
     top: 0;
-    right: 0;
     left: 0;
+    right: 0;
     bottom: 0;
-    content: "";
-}
-.card-work:hover .card-title {
+    content: '';
+  }
+  
+  .card-work:hover .card-title {
     opacity: 1;
-}
-/* Sections 
-    ========================================================================== */
-
-/**
-* Remove the margin in all browsers.
-*/
-
-body {
-    margin: 0;
-}
-
-/**
-* Render the `main` element consistently in IE.
-*/
-
-main {
-    display: block;
-}
-
-/**
-* Correct the font size and margin on `h1` elements within `section` and
-* `article` contexts in Chrome, Firefox, and Safari.
-*/
-
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
-
-/* Grouping content
-    ========================================================================== */
-
-/**
-* 1. Add the correct box sizing in Firefox.
-* 2. Show the overflow in Edge and IE.
-*/
-
-hr {
-    box-sizing: content-box; /* 1 */
-    height: 0; /* 1 */
-    overflow: visible; /* 2 */
-}
-
-/**
-* 1. Correct the inheritance and scaling of font size in all browsers.
-* 2. Correct the odd `em` font sizing in all browsers.
-*/
-
-pre {
-    font-family: monospace, monospace; /* 1 */
-    font-size: 1em; /* 2 */
-}
-
-/* Text-level semantics
-    ========================================================================== */
-
-/**
-* Remove the gray background on active links in IE 10.
-*/
-
-a {
-    background-color: transparent;
-}
-
-/**
-* 1. Remove the bottom border in Chrome 57-
-* 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
-*/
-
-abbr[title] {
-    border-bottom: none; /* 1 */
-    text-decoration: underline; /* 2 */
-    text-decoration: underline dotted; /* 2 */
-}
-
-/**
-* Add the correct font weight in Chrome, Edge, and Safari.
-*/
-
-b,
-strong {
-    font-weight: bolder;
-}
-
-/**
-* 1. Correct the inheritance and scaling of font size in all browsers.
-* 2. Correct the odd `em` font sizing in all browsers.
-*/
-
-code,
-kbd,
-samp {
-    font-family: monospace, monospace; /* 1 */
-    font-size: 1em; /* 2 */
-}
-
-/**
-* Add the correct font size in all browsers.
-*/
-
-small {
-    font-size: 80%;
-}
-
-/**
-* Prevent `sub` and `sup` elements from affecting the line height in
-* all browsers.
-*/
-
-sub,
-sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-}
-
-sub {
-    bottom: -0.25em;
-}
-
-sup {
-    top: -0.5em;
-}
-
-/* Embedded content
-    ========================================================================== */
-
-/**
-* Remove the border on images inside links in IE 10.
-*/
-
-img {
-    border-style: none;
-}
+  }
 
 /* Forms
     ========================================================================== */
