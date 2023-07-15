@@ -57,6 +57,7 @@ html {
     --header-logo-link-position: absolute;
     --header-logo-link-top: -1rem;
     --header-logo-link-left: 0;
+    --object-fit: cover;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
