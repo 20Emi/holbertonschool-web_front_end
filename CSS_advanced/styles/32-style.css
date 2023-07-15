@@ -339,7 +339,7 @@ ul.row {
     transition: var(-–transition-duration) var(--transition-cubic-bezier);
 }
 .card-work:hover .card-outer {
-    transition-property: scale(0.95);
+    transform: scale(0.95);
 }
 /* Forms
     ========================================================================== */
