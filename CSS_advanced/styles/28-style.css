@@ -243,10 +243,10 @@ ul.row {
     padding: 10rem 40rem 2rem 0;
 }
 .header {
-    width: var(--header-padding);
+    padding: var(--header-padding);
 }
 .header-logo {
-    width: var(--header-logo-position);
+    position: var(--header-logo-position);
 }
 .header-logo:link {
     display: var(--header-logo-link-display);
